@@ -4,9 +4,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Practice Project</title>
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    rel="stylesheet"
+    type="text/css"
+  />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Pangolin&family=Lato&display=swap"
+    rel="stylesheet"
+  />
+  <link href="styles.css" rel="stylesheet" type="text/css" />
+    <title>Cityhood Project Tracker</title>
 </head>
 <body>
+    <header>
+        <div class="logo">Cityhood Project Tracker</div>  
+        <nav>
+            <ul id="menu">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="project.html">Project</a></li>
+            </ul>
+        </nav> 
+    </header>
+
+    <!-- Project -->
+    <section id="project">
+        <h2>Find your Local City Neighborhood Projects At a Glance</h2>
+        <!-- Create a form here -->
+        <form class="form-container">
+            <div class="item">
+              <label for="location">Enter Zip Code</label>
+              <input 
+                id="location" 
+                type="text" 
+                name="location"
+                autofocus="on"
+                maxlength="5"
+                required
+                placeholder="Zip Code"
+              />
+            </div>
+            <div class="item">
+              <label for="start">Start Date</label>
+              <input 
+                id="start" 
+                type="date" 
+                name="start"
+                required
+              />
+            </div>
+            <div class="item">
+              <label for="finish">Finish</label>
+              <input 
+                id="finish" 
+                type="date" 
+                name="finish"
+                required
+              />
+            </div>
+            <div class="item">
+            <label for="type">Type</label>
+            <select name="fonts" size="1">
+              <option value="building">Buildings</option>
+              <option value="street">Streets</option>
+              <option value="parks">Parks</option>
+              <option value="trafficLights">Traffic Signals</option>
+            </select>
+            </div>
+            <div>
+              <button type="Search">Search</button>
+            </div>
+      
+        </form>
+
+      </section>
+      <iframe class="venue-map col-2-3" src="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x880e2cb1da049173%3A0xa5c91d255a775f0b!2sHotel+Sax+Chicago%2C+North+Dearborn+Street%2C+Chicago%2C+IL!5e0!3m2!1sen!2sus!4v1388702493978"></iframe>
+      <footer>
+        <p>© GDI Hackathon</p>
+      </footer>
+      
     <script src="index.js"></script>
 </body>
 </html>

@@ -1,0 +1,146 @@
+/* -------  General Styles ------- */
+
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  h2 {
+    font-size: 26px;
+    font-weight: 400;
+    margin: 0 10px 30px 10px;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  p {
+    line-height: 1.5em;
+    margin: 0;
+  }
+  
+  section {
+    padding: 40px;
+  }
+  
+  section.alternate-background {
+    background-color: #00a699;
+    color: #fff;
+  }
+  
+  main img {
+    width: 100%;
+    margin: 0 0 20px 0; 
+  }
+  
+  .group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .item {
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+  }
+  
+  .item-double {
+    flex: 2;
+  }
+
+
+/* -------  Navigation ------- */
+
+header {
+    background-color: #2b01b5;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-family: "Pangolin", cursive;
+    font-size: 72px;
+    color: #fff;
+    display:flex;
+    justify-content: center;
+  }
+  
+  header nav ul {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    justify-content: center
+  }
+  
+  header nav ul li a {
+    list-style: none;
+    margin: 0 20px 20px 0;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    
+  }
+  
+  header nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 0 20px 0 0;
+  }
+  
+  header nav ul li:last-child a {
+    margin-right: 0;
+  }
+  
+  header nav ul li a:hover {
+    color: #bdbdbd;
+    text-decoration: none;
+  }
+
+
+/* -------  Search Form ------- */
+form {
+    border: 2px solid #ff385c;
+    padding: 10px;
+  }
+  
+  form label {
+    min-width: 30px;
+  }
+  
+  form select,
+  form input {
+    width: 180px;
+  }
+  
+  form button {
+    background-color: #5093E2;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    padding: 15px 30px;
+    width: 100%;
+  }
+
+
+iframe {
+    height: 100vh;
+    width: 70%;
+    margin: 40px;
+}
+
+
+/* -------  Footer ------- */
+
+footer {
+    background-color: #067425;
+  }
+  
+  footer p {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
