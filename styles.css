@@ -140,21 +140,18 @@ iframe.main-map {
     margin: 30px 0 100px 40px;
 }
 
-
-/* -------  Footer ------- */
-
-footer {
-    background-color: #067425;
-  }
-  
-  footer p {
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-  }
+iframe.build {
+    width:80%;
+    height:600px;
+    margin: 0 50px;
+}
 
 
-  /* Project Page  */
+/*
+========================================
+Project Page
+========================================
+*/
 
   
   img {
@@ -171,13 +168,6 @@ footer {
     margin-top: 50px;
   }
 
-
-  /*
-  ========================================
-  Project Page
-  ========================================
-*/
-
 *,
 *:before,
 *:after {
@@ -187,7 +177,7 @@ footer {
 .row {
   min-width: 960px;
   background: #fff;
-  padding: 40px 0 200px 0;
+  padding: 0 200px 100px;
 }
 
 .container,
@@ -228,4 +218,17 @@ img {
   display:flex;
   justify-content: space-evenly;
   margin-bottom: 70px;
+}
+
+
+/* -------  Footer ------- */
+
+footer {
+  background-color: #067425;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
 }
