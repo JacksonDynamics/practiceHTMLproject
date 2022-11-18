@@ -129,11 +129,14 @@ form {
     padding: 15px 30px;
     width: 100%;
   }
-
+button:hover {
+  color: #bdbdbd;
+  text-decoration: none;
+}
 
 iframe.main-map {
-    height: 100vh;
-    width: 60%;
+    width:50%;
+    height:600px;
     margin: 30px 0 100px 40px;
 }
 
@@ -171,7 +174,7 @@ footer {
 
   /*
   ========================================
-  Venue
+  Project Page
   ========================================
 */
 
@@ -212,4 +215,17 @@ footer {
 }
 .col-2-3 {
   width: 66.66%;
+}
+
+img {
+    height: 100%;
+    width: 25em;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.images {
+  display:flex;
+  justify-content: space-evenly;
+  margin-bottom: 70px;
 }

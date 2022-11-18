@@ -34,15 +34,15 @@
         <!-- Create a form here -->
         <form class="form-container">
             <div class="item">
-              <label for="location">Enter Zip Code</label>
+              <label for="location">Enter City</label>
               <input 
                 id="location" 
                 type="text" 
                 name="location"
                 autofocus="on"
-                maxlength="5"
+                maxlength="30"
                 required
-                placeholder="Zip Code"
+                placeholder="City Name"
               />
             </div>
             <div class="item">
@@ -63,7 +63,7 @@
                 required
               />
             </div>
-            <div class="item">
+            <!-- <div class="item">
             <label for="type">Type</label>
             <select name="type">
               <option>Type of project...</option>
@@ -72,7 +72,7 @@
               <option value="parks">Parks</option>
               <option value="trafficLights">Traffic Signals</option>
             </select>
-            </div>
+            </div> -->
             <div>
               <button type="submit">Search</button>
             </div>
@@ -80,8 +80,7 @@
         </form>
 
       </section>
-      <iframe class="main-map col-2-3" src="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x880e2cb1da049173%3A0xa5c91d255a775f0b!2sHotel+Sax+Chicago%2C+North+Dearborn+Street%2C+Chicago%2C+IL!5e0!3m2!1sen!2sus!4v1388702493978"></iframe>
-      <footer>
+      <iframe class="main-map" src="https://gem.slcgov.com/portal/apps/PublicInformation/index.html?appid=cab20be12f9849a7bdad831574d81dba" frameborder="0" scrolling="no"></iframe>      <footer>
         <p>© GDI Hackathon</p>
       </footer>
       
