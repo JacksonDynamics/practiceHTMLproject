@@ -5,14 +5,14 @@ body {
   }
   
   h2 {
-    font-size: 26px;
+    font-size: 36px;
     font-weight: 400;
     margin: 0 10px 30px 10px;
     text-align: center;
   }
   
   h3 {
-    font-size: 18px;
+    font-size: 28px;
     font-weight: 500;
   }
   
@@ -134,7 +134,7 @@ form {
 iframe.main-map {
     height: 100vh;
     width: 60%;
-    margin: 40px 0 60px 40px;
+    margin: 30px 0 100px 40px;
 }
 
 
@@ -155,16 +155,17 @@ footer {
 
   
   img {
-    width: 50%;
+    width: 60vh;
     box-shadow: 0px 0px 10px black;;
   }
 
   .title {
     text-align: center;
     color: #5093E2;
-    font-size: 66px;
+    font-size: 70px;
     font-weight: 400;  
     font-family: "Pangolin", cursive;  
+    margin-top: 50px;
   }
 
 
@@ -177,32 +178,19 @@ footer {
 *,
 *:before,
 *:after {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+   box-sizing: border-box;
 }
 
 .row {
   min-width: 960px;
   background: #fff;
-  padding: 66px 0 44px 0;
-}
-
-.venue-theatre {
-  /* margin-bottom: 66px; */
-}
-.venue-hotel {
-  /* margin-bottom: 22px; */
-}
-
-.venue-map {
-  height: 264px;
+  padding: 40px 0 200px 0;
 }
 
 .container,
 .grid {
   margin: 0 auto;
-  width: 960px;
+  width: 1200px;
 }
 .container {
   padding-left: 30px;
