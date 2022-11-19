@@ -45,5 +45,26 @@ const data = [
                 },
             }
     },
+    {
+        city: "Baltimore",
+        map: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49425.02772996056!2d-76.65463763744636!3d39.26410916055061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c80338480c322b%3A0xb56812f7525b5d39!2sBaltimore%2C%20MD%2021230!5e0!3m2!1sen!2sus!4v1668815286102!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
+        Neighborhood: "Federal Hill",
+        projects: {
+                downtown: {
+                    projectNo: 87247,
+                    address: "823 light street",
+                    constructionStart: "Nov 13, 2022",
+                    completionEnd: "May 13, 2023",
+                    budget: "$275.5K"
+                },
+                rural: {
+                    projectNo: 1243,
+                    address: "2942 yorkway",
+                    constructionStart: "Mar 19, 2022",
+                    completionEnd: "Nov 11, 2022",
+                    budget: "$400K"
+                },
+            }
+    },
 ]
 
