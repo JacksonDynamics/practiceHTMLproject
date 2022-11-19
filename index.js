@@ -116,11 +116,6 @@ const data = [
         },
     ]
     
-//     console.log(data[0].projects.downtown.projectNo)
-    
-
-
-console.log(data.id)
 
 
 const resultsList = document.getElementById('results')
