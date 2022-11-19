@@ -4,7 +4,8 @@ new URLSearchParams(window.location.search).forEach((value) => {
         resultsList.append(`${value}`)
 })
 
-const detailsList = document.getElementById('details')
-console.log(detailsList)
-        detailsList.append(document.createElement('h2'))
-        detailsList.append(`Hello World`)
+document.getElementById('projectNo').append(`Hello World`)
+document.getElementById('projectAdd').append(`Hello World`)
+document.getElementById('start').append(`Hello World`)
+document.getElementById('end').append(`Hello World`)
+document.getElementById('budget').append(`Hello World`)
