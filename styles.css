@@ -106,7 +106,7 @@ form {
     border: 2px solid #ff385c;
     padding: 10px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     
   }
@@ -232,3 +232,7 @@ footer p {
   text-align: center;
   padding: 20px;
 }
+
+
+
+#IDmap {display:none}
