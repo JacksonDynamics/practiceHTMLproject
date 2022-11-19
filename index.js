@@ -6,7 +6,7 @@ const data = [
             projects: {
                     downtown: {
                         projectNo: "2021-87",
-                        address: "Sunnyside Ave & Foothill DrSalt Lake City, UT 84108", 
+                        address: "Sunnyside Ave & Foothill Dr, Salt Lake City, UT 84108", 
                         start: "June 13, 2022",
                  end: "Fall of 2023",
                         budget: "$2.5M"
