@@ -1,7 +1,7 @@
 const data = [
         {
             id: 0,
-            city: "Salt Lake",
+            city: "Salt Lake City",
             map: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118109.1232942954!2d-111.96976901005317!3d40.76783671757657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87523d9488d131ed%3A0x5b53b7a0484d31ca!2sSalt%20Lake%20City%2C%20UT!5e0!3m2!1sen!2sus!4v1668810046579!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
             projects: {
                     downtown: {
@@ -117,10 +117,11 @@ const data = [
         // },
     ]
     
-    console.log(data[0].projects.downtown.projectNo)
+//     console.log(data[0].projects.downtown.projectNo)
     
 
 
+console.log(data.id)
 
 
 const resultsList = document.getElementById('results')
@@ -128,9 +129,47 @@ new URLSearchParams(window.location.search).forEach((value) => {
         resultsList.append(document.createElement('br'))
         resultsList.append(`${value}`)
         
-        document.getElementById('projectNo').append(` ${data[0].projects.downtown.projectNo}`)
-        document.getElementById('projectAdd').append(` ${data[0].projects.downtown.address}`)
-        document.getElementById('start').append(` ${data[0].projects.downtown.start}`)
-        document.getElementById('end').append(` ${data[0].projects.downtown.end}`)
-        document.getElementById('budget').append(` ${data[0].projects.downtown.budget}`)
+        if(value == "Salt Lake City, UT" ) {
+                const UT = data[0].projects.downtown
+
+                document.getElementById('projectNo').append(` ${UT.projectNo}`)
+                document.getElementById('projectAdd').append(` ${UT.address}`)
+                document.getElementById('start').append(` ${UT.start}`)
+                document.getElementById('end').append(` ${UT.end}`)
+                document.getElementById('budget').append(` ${UT.budget}`)
+        } else if(value == "Columbus, OH") {
+                const OH = data[1].projects.downtown
+
+                document.getElementById('projectNo').append(` ${OH.projectNo}`)
+                document.getElementById('projectAdd').append(` ${OH.address}`)
+                document.getElementById('start').append(` ${OH.start}`)
+                document.getElementById('end').append(` ${OH.end}`)
+                document.getElementById('budget').append(` ${OH.budget}`)
+        } else if(value =="Raleigh, NC") {
+                const RNC = data[2].projects.downtown
+
+                document.getElementById('projectNo').append(` ${RNC.projectNo}`)
+                document.getElementById('projectAdd').append(` ${RNC.address}`)
+                document.getElementById('start').append(` ${RNC.start}`)
+                document.getElementById('end').append(` ${RNC.end}`)
+                document.getElementById('budget').append(` ${RNC.budget}`)
+        } else if(value == "Baltimore, MD") {
+                const MD = data[3].projects.downtown
+
+                document.getElementById('projectNo').append(` ${MD.projectNo}`)
+                document.getElementById('projectAdd').append(` ${MD.address}`)
+                document.getElementById('start').append(` ${MD.start}`)
+                document.getElementById('end').append(` ${MD.end}`)
+                document.getElementById('budget').append(` ${MD.budget}`)
+        } else if(value == "Winston-Salem, NC") {
+                const WSNC = data[4].projects.downtown
+
+                document.getElementById('projectNo').append(` ${WSNC.projectNo}`)
+                document.getElementById('projectAdd').append(` ${WSNC.address}`)
+                document.getElementById('start').append(` ${WSNC.start}`)
+                document.getElementById('end').append(` ${WSNC.end}`)
+                document.getElementById('budget').append(` ${WSNC.budget}`)
+        }
+
+
 })
