@@ -117,3 +117,4 @@ const data = [
     },
 ]
 
+console.log(data[0].city)
