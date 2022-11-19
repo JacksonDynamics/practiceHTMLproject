@@ -1,13 +1,10 @@
-// let El = document.querySelector("#sum-el");
-// let cardsEl = document.querySelector("#cards-el");
+const resultsList = document.getElementById('results')
+new URLSearchParams(window.location.search).forEach((value) => {
+        resultsList.append(document.createElement('br'))
+        resultsList.append(`${value}`)
+})
 
-
-function show() {
-    
-
-    document.getElementById('IDmap')
-            .style.display = "block";
-
-    document.getElementById('btnID')
-            .style.display = "none";
-}
+const detailsList = document.getElementById('details')
+console.log(detailsList)
+        detailsList.append(document.createElement('h2'))
+        detailsList.append(`Hello World`)

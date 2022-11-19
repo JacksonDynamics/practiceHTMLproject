@@ -36,18 +36,18 @@
 
             <div class="item">
               <label for="cityChoice">City Construction Project</label>
-              <select name="cityChoice" id="cityChoice" required>
-                <option value="" selected>City Choice</option>
-                <option value="slc-UT">Salt Lake, UT</option>
-                <option value="co-OH">Columbus, OH</option>
-                <option value="raleigh-NC">Raleigh, NC</option>
-                <option value="baltimore-MD">Baltimore, MD</option>
-                <option value="WS-NC">Winston-Salem, NC</option>
+              <select name="cityChoice" id="cityChoice">
+                <option value="" disabled selected hidden>Choose City</option>
+                <option value="Salt Lake City, UT">Salt Lake City, UT</option>
+                <option value="Columbus, OH">Columbus, OH</option>
+                <option value="Raleigh, NC">Raleigh, NC</option>
+                <option value="Baltimore, MD">Baltimore, MD</option>
+                <option value="Winston-Salem, NC">Winston-Salem, NC</option>
               </select>
             </div>
 
-            <div class="item">
-              <label for="location">OR &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Enter Zip</label>
+            <!-- <div class="item">
+              <label for="location">OR &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Enter Zip</label>
               <input 
                 id="location" 
                 type="text" 
@@ -56,10 +56,10 @@
                 maxlength="5"
                 placeholder="Zip Code"
               />
-            </div>
+            </div> -->
 
             <div>
-              <button type="submit" onclick="show()" id="btnID">Search</button>
+              <button type="submit">Search</button>
             </div>
       
         </form>
