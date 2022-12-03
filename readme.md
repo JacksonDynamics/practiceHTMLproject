@@ -4,4 +4,4 @@
 ### Putting together both HTML, CSS and a mock up data.js file to mimic a server
 
 
-<img src="Hack Achievement.png" width="700px" />
+<img src="Hack Achievement.png" width="300px" />
